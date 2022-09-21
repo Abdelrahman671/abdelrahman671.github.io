@@ -37,6 +37,9 @@ github:
 twitter:
   username: abu_shady816            # change to your twitter username
 
+linkedin:
+  username: abdelrahman-alaa-1a86131a1
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -74,7 +77,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:  # [light|dark]
+theme_mode:  [light|dark] # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -84,7 +87,7 @@ theme_mode:  # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://www.kindpng.com/picc/m/135-1352993_pixel-art-computer-png-clipart-png-download-computer.png
+avatar: https://i.pinimg.com/originals/72/1b/3b/721b3bef06f38989f7e7745e05756eda.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
