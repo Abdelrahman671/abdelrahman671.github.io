@@ -36,9 +36,6 @@ github:
 twitter:
   username: abu_shady816            # change to your twitter username
 
-linkedin:
-  username: abdelrahman-alaa-1a86131a1
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -48,10 +45,9 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/abu_shady816      # change to your twitter homepage
     - https://github.com/abdelrahman671       # change to your github homepage
-    - https://www.linkedin.com/in/abdelrahman-alaa-1a86131a1/ # linkedin
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/abdelrahman-alaa-1a86131a1
 
 google_site_verification:               # fill in to your verification string
 
@@ -76,7 +72,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:  [light|dark] # [light|dark]
+theme_mode: light # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
