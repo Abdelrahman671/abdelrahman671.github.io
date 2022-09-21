@@ -72,7 +72,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light # [light|dark]
+theme_mode: [light|dark] # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -82,7 +82,7 @@ theme_mode: light # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://i.pinimg.com/originals/72/1b/3b/721b3bef06f38989f7e7745e05756eda.jpg
+avatar: https://ibb.co/S5LwSD7
 
 # boolean type, the global switch for ToC in posts.
 toc: true
