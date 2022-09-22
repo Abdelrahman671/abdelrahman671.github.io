@@ -5,7 +5,7 @@ tags: [Network Security, DFIR]     # TAG names should always be lowercase
 author: abdelrahman671
 categories: [CyberTalents Write-up]
 comments: false
-img_path: /assets/img/hip_imgs/
+
 ---
 
 ![challenge image](st.png)
