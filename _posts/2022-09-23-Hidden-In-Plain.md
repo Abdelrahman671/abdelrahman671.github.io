@@ -1,10 +1,11 @@
 ---
 title: Hidden In Plain
+author: abdelrahman671
 date: 2022-09-23 12:00:00 +0200
 tags: [Network Security, DFIR]     # TAG names should always be lowercase
-author: abdelrahman671
 categories: [CyberTalents Write-up]
 comments: false
+img_path: ../assets/img/hip_imgs/
 
 ---
 
