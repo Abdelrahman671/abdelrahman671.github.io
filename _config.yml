@@ -73,14 +73,14 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: 
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: https://opgg-static.akamaized.net/images/profile_icons/profileIcon5265.jpg?image=q_auto&image=q_auto,f_webp,w_48&v=1662111457535
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://opgg-static.akamaized.net/images/profile_icons/profileIcon5265.jpg?image=q_auto&image=q_auto,f_webp,w_48&v=1662111457535
@@ -199,6 +199,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-    
-plugins:
-  - jekyll-avatar
+
