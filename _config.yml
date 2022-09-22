@@ -200,5 +200,5 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
     
- plugins:
+plugins:
   - jekyll-avatar
