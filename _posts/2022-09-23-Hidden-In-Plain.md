@@ -16,7 +16,7 @@ After downloading the zip file and extracting it. we will find three pcap files 
 
 First thing, let's check what procotols do they have via `Statistics > Protocol Hierarchy`
 
-![protocol hierarchy](w1.png)
+![protocol hierarchy](/assets/img/hip_imgs/w1.png)
 
 ## Step 2:
 
