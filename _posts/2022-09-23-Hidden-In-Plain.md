@@ -5,8 +5,6 @@ date: 2022-09-23 12:00:00 +0200
 tags: [Network Security, DFIR]     # TAG names should always be lowercase
 categories: [CyberTalents Write-up]
 comments: false
-img_path: ../assets/img/hip_imgs/
-
 ---
 
 ![challenge image](/assets/img/hip_imgs/st.png)
@@ -24,7 +22,7 @@ First thing, let's check what procotols do they have via `Statistics > Protocol 
 
 Now, we can proceed with our analysis. Looking at the packets and we only observe the interesting thing is about the ICMP data.
 
-![icmp packets](../assets/img/hip_imgs/w2.png)
+![icmp packets](/assets/img/hip_imgs/w2.png)
 
 ## Step 3:
 
@@ -62,7 +60,7 @@ for pkt in file:
 
 After running the script, we will see the icmp data combined with strange symbols.
 
-![icmp data](w3.png)
+![icmp data](/assets/img/hip_imgs/w3.png)
 
 ## Step 4:
 
@@ -122,21 +120,21 @@ Executing the script by giving it the following arguments:
 * input file to store the yenc encoded data
 * output file to decode the yenc encoded data 
 
-![execution of a python script](w4.png)
+![execution of a python script](/assets/img/hip_imgs/w4.png)
 
 When running the script on the first pcap file `f101.pcap`, I found something that might be interested from the decode operation.
 
-![decoded icmp data](w5.png)
+![decoded icmp data](/assets/img/hip_imgs/w5.png)
 
 ## Step 6
 
 I have copied and inserted this data on [CyberChef](https://gchq.github.io/CyberChef/) then found that this is a base64 encoding, after decoding it we observe the output result.
 
-![cyberchef output result](w6.png)
+![cyberchef output result](/assets/img/hip_imgs/w6.png)
 
 We still need to perform another operation in order to get the flag. So let's get the md5 hash of the "flag" word.
 
-![md5 hash for 'flag' word](w7.png)
+![md5 hash for 'flag' word](/assets/img/hip_imgs/w7.png)
 
 finally! the flag is : `flag{327a6c4304ad5938eaf0efb6cc3e53dc}`
    
