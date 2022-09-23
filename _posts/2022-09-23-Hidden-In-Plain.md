@@ -9,7 +9,7 @@ img_path: ../assets/img/hip_imgs/
 
 ---
 
-![challenge image](st.png)
+![challenge image](/assets/img/hip_imgs/st.png)
 
 
 ## Step 1:  
@@ -24,7 +24,7 @@ First thing, let's check what procotols do they have via `Statistics > Protocol 
 
 Now, we can proceed with our analysis. Looking at the packets and we only observe the interesting thing is about the ICMP data.
 
-![icmp packets](w2.png)
+![icmp packets](../assets/img/hip_imgs/w2.png)
 
 ## Step 3:
 
