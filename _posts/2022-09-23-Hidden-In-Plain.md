@@ -3,12 +3,11 @@ title: Hidden In Plain
 author: abdelrahman671
 date: 2022-09-23 01:30:00 +0200
 tags: [Network Security, DFIR]     # TAG names should always be lowercase
-categories: [CyberTalents Write-up]
-comments: false
+categories: [CyberTalents Writeup]
 mermaid: true
 ---
 
-![challenge image](https://github.com/Abdelrahman671/abdelrahman671.github.io/tree/main/assets/img/hip_imgs/st.png)
+![challenge image](/assets/img/hip_imgs/st.png)
 
 
 ## Step 1:  
