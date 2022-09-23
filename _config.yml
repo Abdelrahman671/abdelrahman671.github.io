@@ -80,7 +80,7 @@ theme_mode: dark
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://opgg-static.akamaized.net/images/profile_icons/profileIcon5265.jpg?image=q_auto&image=q_auto,f_webp,w_48&v=1662111457535
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://opgg-static.akamaized.net/images/profile_icons/profileIcon5265.jpg?image=q_auto&image=q_auto,f_webp,w_48&v=1662111457535
