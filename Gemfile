@@ -23,4 +23,4 @@ gem "webrick", "~> 1.7"
 
 gem 'jekyll-avatar'
 
-gem: jekyll-sitemap
+gem "jekyll-sitemap"
